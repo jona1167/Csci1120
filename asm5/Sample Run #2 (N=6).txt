@@ -1,0 +1,179 @@
+Enter starting position (col row): B 3
+   A  B  C  D  E  F
+0  .  .  .  .  .  .
+1  .  .  .  .  .  .
+2  .  .  .  .  .  .
+3  .  k  .  .  .  .
+4  .  .  .  .  .  .
+5  .  .  .  .  .  .
+Steps: 0
+Move the knight (col row): C 1
+   A  B  C  D  E  F
+0  .  .  .  .  .  .
+1  .  .  K  .  .  .
+2  .  .  .  .  .  .
+3  .  k  .  .  .  .
+4  .  .  .  .  .  .
+5  .  .  .  .  .  .
+Steps: 1
+Move the knight (col row): E 0
+   A  B  C  D  E  F
+0  .  .  .  .  K  .
+1  .  .  1  .  .  .
+2  .  .  .  .  .  .
+3  .  k  .  .  .  .
+4  .  .  .  .  .  .
+5  .  .  .  .  .  .
+Steps: 2
+Move the knight (col row): F 2
+   A  B  C  D  E  F
+0  .  .  .  .  2  .
+1  .  .  1  .  .  .
+2  .  .  .  .  .  K
+3  .  k  .  .  .  .
+4  .  .  .  .  .  .
+5  .  .  .  .  .  .
+Steps: 3
+Move the knight (col row): D 3
+   A  B  C  D  E  F
+0  .  .  .  .  2  .
+1  .  .  1  .  .  .
+2  .  .  .  .  .  3
+3  .  k  .  K  .  .
+4  .  .  .  .  .  .
+5  .  .  .  .  .  .
+Steps: 4
+Move the knight (col row): F 4
+Invalid move. Try again!
+Move the knight (col row): E 1
+Invalid move. Try again!
+Move the knight (col row): C 1
+Invalid move. Try again!
+Move the knight (col row): C 5
+   A  B  C  D  E  F
+0  .  .  .  .  2  .
+1  .  .  1  .  .  .
+2  .  .  .  .  .  3
+3  .  k  .  4  .  .
+4  .  .  .  .  .  .
+5  .  .  K  .  .  .
+Steps: 5
+Move the knight (col row): A 4
+   A  B  C  D  E  F
+0  .  .  .  .  2  .
+1  .  .  1  .  .  .
+2  .  .  .  .  .  3
+3  .  k  .  4  .  .
+4  K  .  .  .  .  .
+5  .  .  5  .  .  .
+Steps: 6
+Move the knight (col row): B 2
+   A  B  C  D  E  F
+0  .  .  .  .  2  .
+1  .  .  1  .  .  .
+2  .  K  .  .  .  3
+3  .  k  .  4  .  .
+4  6  .  .  .  .  .
+5  .  .  5  .  .  .
+Steps: 7
+Move the knight (col row): C 0
+   A  B  C  D  E  F
+0  .  .  K  .  2  .
+1  .  .  1  .  .  .
+2  .  7  .  .  .  3
+3  .  k  .  4  .  .
+4  6  .  .  .  .  .
+5  .  .  5  .  .  .
+Steps: 8
+Move the knight (col row): E 1
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  .  1  .  K  .
+2  .  7  .  .  .  3
+3  .  k  .  4  .  .
+4  6  .  .  .  .  .
+5  .  .  5  .  .  .
+Steps: 9
+Move the knight (col row): F 3
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  .  1  .  9  .
+2  .  7  .  .  .  3
+3  .  k  .  4  .  K
+4  6  .  .  .  .  .
+5  .  .  5  .  .  .
+Steps: 10
+Move the knight (col row): D 4
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  .  1  .  9  .
+2  .  7  .  .  .  3
+3  .  k  .  4  . 10
+4  6  .  .  K  .  .
+5  .  .  5  .  .  .
+Steps: 11
+Move the knight (col row): B 5
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  .  1  .  9  .
+2  .  7  .  .  .  3
+3  .  k  .  4  . 10
+4  6  .  . 11  .  .
+5  .  K  5  .  .  .
+Steps: 12
+Move the knight (col row): A 3
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  .  1  .  9  .
+2  .  7  .  .  .  3
+3  K  k  .  4  . 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  .
+Steps: 13
+Move the knight (col row): B 1
+   A  B  C  D  E  F
+0  .  .  8  .  2  .
+1  .  K  1  .  9  .
+2  .  7  .  .  .  3
+3 13  k  .  4  . 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  .
+Steps: 14
+Move the knight (col row): D 0
+   A  B  C  D  E  F
+0  .  .  8  K  2  .
+1  . 14  1  .  9  .
+2  .  7  .  .  .  3
+3 13  k  .  4  . 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  .
+Steps: 15
+Move the knight (col row): F 1
+   A  B  C  D  E  F
+0  .  .  8 15  2  .
+1  . 14  1  .  9  K
+2  .  7  .  .  .  3
+3 13  k  .  4  . 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  .
+Steps: 16
+Move the knight (col row): E 3
+   A  B  C  D  E  F
+0  .  .  8 15  2  .
+1  . 14  1  .  9 16
+2  .  7  .  .  .  3
+3 13  k  .  4  K 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  .
+Steps: 17
+Move the knight (col row): F 5
+   A  B  C  D  E  F
+0  .  .  8 15  2  .
+1  . 14  1  .  9 16
+2  .  7  .  .  .  3
+3 13  k  .  4 17 10
+4  6  .  . 11  .  .
+5  . 12  5  .  .  K
+Steps: 18
+Finished! No more moves!
+Well done!
